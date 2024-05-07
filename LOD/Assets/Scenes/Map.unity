@@ -394,7 +394,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_Size.x
-      value: 0.35
+      value: 0.34409955
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0014565438
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -554,7 +558,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_Size.x
-      value: 1.14
+      value: 1.1317868
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.005600214
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -766,7 +774,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_Size.x
-      value: 0.35
+      value: 0.34352735
+      objectReference: {fileID: 0}
+    - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0017426461
       objectReference: {fileID: 0}
     - target: {fileID: 8444189066364407651, guid: 6058eafe44d9db044981f72a4ce2c55f, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -833,11 +845,11 @@ MonoBehaviour:
   groundCheck: {fileID: 1383619604}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   wallCheck: {fileID: 1108695488}
   wallLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 192
   tr: {fileID: 874521876}
   jumpingPower: 4.9
 --- !u!114 &874521871
@@ -980,7 +992,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.039787177}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -990,7 +1002,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.34, y: 0.32}
+  m_Size: {x: 0.22091317, y: 0.24042565}
   m_EdgeRadius: 0
 --- !u!50 &874521873
 Rigidbody2D:
@@ -1357,7 +1369,7 @@ Transform:
   m_GameObject: {fileID: 1108695487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.108, y: -0.063, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1454,7 +1466,7 @@ Transform:
   m_GameObject: {fileID: 1383619603}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalPosition: {x: 0, y: -0.161, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
